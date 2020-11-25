@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+section{
+    padding: 80px 0px;
+}
+
+
+
+.topbarwrapper{
+    background: #f5f5f5;
+}
+.container{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+
+}
+.phone{
+    width: 210px;
+    float: left;
+    padding: 15px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.email{
+    width: 500px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.social {
+    width: 142px;
+    float: left;
+    transition: 0.5s;
+}
+.topbarwrapper {
+    overflow: hidden;
+}
+.social a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border: solid 1px #ddd;
+    color: black;
+}
+.social i:hover{
+    color: #06d0df;
+}
+.social a:first-child{
+    border: left 1px solid;
+}
+.phone i{
+    color: #06d0df;
+}
+.email i{
+    color: #06d0df;
+}
+.logo h1 {
+    color: #06d0df;
+    margin-top: 13px;
+}
+.primarywraper {
+    overflow: hidden;
+    width: 100%;
+}
+.logo {
+    width: 140px;
+    float: left;
+}
+.manu {
+    width: 990;
+    width: 764px;
+    float: left;
+    margin-right: 183px;
+
+}
+ul.mainmenuitems {
+    list-style: none;
+}
+ul.mainmenuitems li {
+    float: left;
+}
+ul.mainmenuitems li a {
+    text-decoration: none;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    padding: 30px 25px;
+    color: black;
+    font-weight: 500px;
+    transition: 0.5s;
+}
+ul.mainmenuitems {
+    list-style: none;
+    float: right;
+}
+ul.mainmenuitems li a:hover{
+    color: #06d0df;
+}
+.primary {
+    width: auto;
+    height: 85px;
+}
+.homeslider {
+    background: url(559128.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+.slidercontent {
+    color: rgb(255, 255, 255);
+    width: 600px;
+    
+}
+.slidercontent h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 130px;
+    float: left;
+}
+.slidercontent p {
+    font-weight: 600;
+    line-height: 26px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+button#slideworkbutton {
+    background: #06d0df;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 110px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.round {
+    width: 100px;
+    margin: auto;
+    padding: 30px;
+}
+.round span {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 3px solid white;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+    margin: 5px 5px;
+    transition: 0.5s;
+    
+}
+.round span:hover{
+    background: #06d0df;
+}
+#services{
+    background: #f5f6f6;
+}
+.sboxwraper {
+    overflow: hidden;
+}
+.singlebox {
+    width: 195px;
+    background: #d3f7ff;
+    padding: 15px;
+    float: left;
+    margin: 30px;
+    transition: .5s;
+    border-radius: 5px;
+}
+.singlebox:hover{
+    background: #06d0df;
+    color: white;
+}
+
+
+
+.sboxtitle {
+    text-align: center;
+    width: 230px;
+    margin: auto;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+.sboxtitle h2 {
+    font-size: 22px;
+    letter-spacing: -1.1px;
+    color: black;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 25px 0px;
+    margin-right: 35px;
+}
+.sboxicon {
+    text-align: center;
+    font-size: 40px;
+    color: #06d0df;
+    margin: 20px;
+}
+.sboxdesc {
+    text-align: center;
+    margin: 25px;
+}
+.sboxlinx a {
+    text-decoration: none;
+    color: #06d0df;
+    font-weight: 500;
+    
+}
+.sboxlinx {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+img {
+    height: 305px;
+    
+}
+.singlebox:hover .sboxlinx a {
+    color: white !important;
+}
+.singlebox:hover .sboxtitle h2 {
+    color: white !important;
+}
+.singlebox:hover .sboxicon i {
+    color: white !important;
+}
+.teamcontent {
+    overflow: hidden;
+}
+.teamimg {
+    width: 550px;
+    float: left;
+}
+img {
+    height: 305px;
+    max-width: 100%;
+}
+.teamDetails {
+    width: 587px;
+    float: right;
+}
+.titleDesc h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.teamDetails p {
+    color: #666;
+    line-height: 25px;
+    margin-bottom: 9px;
+}
+.teamfacilitise ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    width: 260px;
+    float: left;
+}
+.teamfacilitise ul li {
+    line-height: 29px;
+    font-size: 14px;
+}
+.teamfacilitise ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+.teamfacilitise ul li a:hover{
+    color: #06d0df;
+}
+.teamfacilitise {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.teamcontactbutton a {
+    background: #06d0df;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.teamcontactbutton {
+    margin-top: 23px;
+    border-radius: 5px;
+}
+.teamcontactbutton:hover{
+    color: rgb(41, 41, 41);
+}
+
+section#Ourteam {
+    padding-top: 0px;
+}
+#WhyChoseUs {
+    background: linear-gradient(#00000091,#0000008c), url(pljxaxmkio021.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.iconwraper {
+    overflow: hidden;
+}
+
+.singleIcon {
+    width: 250px;
+    text-align: center;
+    color: white;
+}
+.Sicon {
+    font-size: 50px;
+}
+.singleIcon {
+    width: 250px;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-right: 35px;
+    margin-top: 14px;
+}
+.sectiontitle {
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 60px;
+    
+}
+
+#blogposts{
+    background: #f5f6f6;
+}
+.sectiontitle h2 {
+    font-size: 45px;
+    position: relative;
+}
+.sectiontitle h2:after {
+    content: '';
+    position: absolute;
+    width: 10vw;
+    border-bottom: 5px solid #06d0df;
+    left: 50%;
+    bottom: -30%;
+    transform: translate(-50%);
+}
+.sectiontitle p {
+    margin-top: 30px;
+    width: 550px;
+    line-height: 25px;
+    font-size: 17px;
+    color: #666;
+    text-align: center;
+    margin-left: 289px;
+}
+.postwraper {
+    overflow: hidden;
+}
+.singlepost {
+    width: 30%;
+    float: left;
+    margin-right: 38px;
+}
+.singlepost img {
+    width: 100%;
+    height: 245px;
+    margin-bottom: 15px;
+}
+.postinfo p {
+    margin-top: 10px;
+    color: #666;
+    line-height: 23px;
+}
+.leftimg {
+    background: url(617773.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50%;
+    float: left;
+    height: 70vh;
+}
+section#Ideas {
+    overflow: hidden;
+    position: relative;
+}
+.rightcontent {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    background: #222222;
+    color: white;
+    height: 431px;
+}
+.rcontenttitle {
+    padding: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 35px;
+}
+.rcontenttitle h1 {
+    font-size: 30px;
+}
+.rcontenttitle p {
+    font-size: 15px;
+    line-height: 24px;
+}
+.rcontenticons {
+    padding: 0px 70px;
+    overflow: hidden;
+}
+.riconsingle {
+    width: 270px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-right: 123px;
+}
+.ricon {
+    width: 70px;
+    overflow: hidden;
+    float: left;
+}
+.ricontitle {
+    width: 200px;
+    overflow: hidden;
+    float: right;
+}
+.ricon {
+    width: 70px;
+    overflow: hidden;
+    float: left;
+    font-size: 48px;
+    color: #06d0df;
+}
+.ricontitle h2 {
+    font-size: 18px;
+}
+.ricontitle p {
+    font-size: 14px;
+    margin-top: 9px;
+}
+.rcontenticons {
+    padding: 0px 70px;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+.leftimg {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50%;
+    float: left;
+    height: 431px;
+}
+footer#footer {
+    background: #1A1A1A;
+    padding-top: 200px;
+    position: relative;
+    z-index: -1;
+}
+.copywritecontainer {
+    overflow: hidden;
+    color: #999;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copywritecontainer .container {
+    overflow: hidden;
+}
+.copywritetext {
+    
+    float: left;
+}
+.copywritetext {
+    margin-left: 359px;
+    padding-top: 6px;
+    font-size: 17px;
+}
+.copywritemeny {
+    width: 50%;
+    float: right;
+    padding-top: 6px;
+}
+.copywritemeny ul {
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+.copywritemeny ul {
+    margin-right: 370px;
+}
+.copywritemeny ul li {
+    float: left;
+}
+
+.copywritemeny ul li a {
+    padding: 41px;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #999;
+}
+.fboxwrapper {
+    overflow: hidden;
+}
+.fbox {
+    width: 220px;
+    float: left;
+    margin-right: 160px;
+    color: #666;
+}
+.fbox h3 {
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+.fbox p {
+    margin-bottom: 5px;
+}
+.fbox span {
+    display: block;
+    margin-bottom: 17px;
+    color: #666;
+}
+.fbox span i {
+    color: #06d0df;
+}
+.fbox p {
+    margin-bottom: 10px;
+}
+.ficon {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 9px;
+}
+.ficon i {
+    color: #06d0df;
+}
+.fbox ul li a {
+    color: #999;
+    text-decoration: none;
+    display: block;
+    padding: 7px 0px;
+    border-bottom: 1px solid #464646;
+}
+.fbox ul {
+    list-style: none;
+}
+.fbox ul li:last-child a {
+    border-bottom: 0px;
+}
+.subsboxwraper {
+    background: #06d0df;
+    overflow: hidden;
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+.subsboxsingle {
+    width: 320px;
+    float: left;
+    overflow: hidden;
+    padding: 30px;
+}
+.subsboxsingle:last-child {
+    margin-right: 0px;
+}
+.subsboxsingle h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+.imputbosses {
+    
+    position: relative;
+}
+.imputbosses input:first-child {
+    width: 198px;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Oswald';
+    letter-spacing: 1.1px;
+}
+input#subssubmit {
+    padding: 11px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 14px;
+    width: 120px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    cursor: pointer;
+}
+.subsboxsingle p {
+    color: white;
+    line-height: 21px;
+}
+.subsfolloicon a i {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: 1px solid white;
+    place-items: center;
+    display: grid;
+    border-radius: 100%;
+    color: white;
+    margin-right: 15px;
+}
+section#subscribe {
+    position: relative;
+    margin-bottom: -160px;
+}
+.dropdowncontent {
+    background: #fff;
+    display: none;
+    position: absolute;
+    min-width: 220px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3);
+    
+}
+.dropdowncontent a{
+    display: block;
+}
+.dropdown:hover .dropdowncontent{
+    display: block;
+}
+
